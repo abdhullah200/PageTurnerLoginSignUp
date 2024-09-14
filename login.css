@@ -1,0 +1,485 @@
+.box {
+    height: 500px;
+    width: 350px;
+    backdrop-filter: blur(5px);
+    border-radius: 50px;
+    padding: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 10px auto;
+    float: right;
+  }
+
+  input {
+    opacity: 0.9;
+    border-radius: 50px;
+    margin: 10px 0;
+    width: 100%;
+    padding: 5px;
+    color: brown;
+    background-color: transparent;
+    border: none; /* Remove border */
+    border-bottom: 1px solid brown; /* Add bottom border */
+  }
+  select {
+    opacity: 0.9;
+    border-radius: 50px;
+    margin: 10px 0;
+    width: 100%;
+    padding: 5px;
+    color: brown;
+    background-color: transparent;
+    border: none; /* Remove border */
+    border-bottom: 1px solid brown; /* Add bottom border */
+  }
+  hr {
+    border: transparent;
+  }
+
+  body {
+    background-image: url("czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm00NTItZi0wMTQteC5qcGc.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  h1 {
+    color: #954535;
+  }
+
+  .option{
+    opacity: 0.9;
+    border-radius: 50px;
+    margin: 10px 0;
+    width: 100%;
+    padding: 5px;
+    color: brown;
+    background-color: transparent;
+    border: none; /* Remove border */
+    border-bottom: 1px solid brown; /* Add bottom border */
+  }
+  .male{
+    background-color: blue;
+    color: pink;
+  }
+
+  #link{
+    text-align:center;
+  }
+  .Signup {
+    border-radius: 90px;
+    margin: 10px 0;
+    width: 50%;
+    padding: 5px;
+    color: #704214;
+    background: #C19A6B;
+    border: transparent;
+    position: relative; /* Required for positioning the leaf */
+  }
+
+  .leaf {
+    position: absolute;
+    top: -10px; /* Adjust this value to position the leaf vertically */
+    right: 40px; /* Adjust this value to position the leaf horizontally */
+    width: 50px; /* Adjust the size of the leaf */
+    height: 60px; /* Adjust the size of the leaf */
+    /* Replace 'path_to_your_leaf_image.png' with the actual path to your leaf image */
+    background-size: cover;
+  }
+  nav {
+    color: hotpink;
+    text-decoration: none;
+  }
+
+  .container {
+    z-index: 1;
+    perspective:6000px;
+    }
+
+    .container .book {
+    position: relative;
+    display: block;
+    width: 5%;
+    height: 55px;
+    align-content: right;
+    position:relative; right:450px;
+    margin: 3% auto;
+    border-radius: 2px 4px 4px 2px;
+    background: linear-gradient(45deg,  #5b2910 0%, #573814 100%);
+    font-family: acumin-pro, sans-serif;
+    -webkit-box-shadow: 13px 13px 8px 0px rgba(151, 146, 153,0.6);
+    -moz-box-shadow: 13px 13px 8px 0px rgba(151, 146, 153,0.6);
+    box-shadow: 13px 13px 8px 0px rgba(151, 146, 153,0.6);
+    font-weight: 400;
+    color: #2b2b2b;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: -webkit-transform .5s;
+    -moz-transition: -moz-transform .5s;
+    transition: transform .5s;
+    }
+
+    .container .book:hover {
+    -webkit-transform: rotate3d(0,1,0,35deg);
+    -moz-transform: rotate3d(0,1,0,35deg);
+    transform: rotate3d(0,1,0,35deg);
+    }
+
+    .container .book > div,
+    .container .front > div {
+    display: block;
+    position: absolute;
+    }
+
+
+    .container .front {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform-origin: 0% 50%;
+    -moz-transform-origin: 0% 50%;
+    transform-origin: 0% 50%;
+    -webkit-transition: -webkit-transform .5s;
+    -moz-transition: -moz-transform .5s;
+    transition: transform .5s;
+    -webkit-transform: translate3d(0,0,20px);
+    -moz-transform: translate3d(0,0,20px);
+    transform: translate3d(0,0,20px);
+    z-index: 10;
+    }
+
+    .container .front > div {
+    width: 400px;
+    height: 550px;
+    }
+
+    .container .left-side{
+    width: 40px;
+    left: -20px;
+    height: 550px;
+    background-color: rgb(98,74,46);
+    -webkit-transform: rotate3d(0,1,0,-90deg);
+    -moz-transform: rotate3d(0,1,0,-90deg);
+    transform: rotate3d(0,1,0,-90deg);
+    }
+
+    .cover svg{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    margin-top: -100px;
+    margin-left: -110px;
+    width: 300px;
+    }
+
+    #eye-right {
+    padding-left: 185px;
+    align-self: center;
+    height: -200;
+    width: 60%;
+    }
+    #eye-left {
+    padding-left: 185px;
+    align-self: center;
+    height: -200;
+    }
+
+    .cover .num-up{
+    position: absolute;
+    top: 64px;
+    left: 47px;
+    letter-spacing: 50px;
+    transform: rotate(-90deg);
+    }
+
+    .cover .num-down{
+    position: relative;
+    top: 65px;
+    left: -95px;
+    transform: rotate(-90deg);
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #ffffff; /* Set background color as desired */
+    }
+
+    .container {
+        position: relative;
+    }
+    .book {
+      position: relative;
+      width: -50%; /* Adjust the width to make the book smaller */
+      max-width: 50px; /* Add max-width to ensure it doesn't exceed a certain width */
+      height: 55px;
+      margin: 1% auto; /* Adjust margin to allow more space */
+      top: 150px; /* Adjust top position to move it up */
+      left: -350px; /* Adjust left position if needed */
+    }
+    
+
+    #eye-right, #eye-left {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+    .author{
+    font-family: acumin-pro, sans-serif;
+    font-weight: 400;
+    position: absolute;
+    top: 475px;
+    left: 50px;
+    opacity: .8;
+    }
+
+    .container .front > div {
+    align-self: center;
+    border-radius: 0 3px 3px 0;
+    box-shadow:
+        inset 4px 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .container .front:after {
+    content: '';
+    position: absolute;
+    top: 1px;
+    bottom: 1px;
+    left: -1px;
+    width: 1px;
+    }
+
+    .container .cover:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 10px;
+    bottom: 0;
+    width: 3px;
+    background: rgba(0,0,0,0.1);
+    box-shadow: 1px 0 3px rgb(98,74,46);
+    }
+
+
+    .container h2 {
+    width: 500px;
+    height: 40px;
+    color: #2b2b2b;
+    font-size: 15px;
+    line-height: 40px;
+    padding-right: 10px;
+    text-align: right;
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: rotate(90deg) translateY(-40px);
+    -moz-transform: rotate(90deg) translateY(-40px);
+    transform: rotate(90deg) translateY(-40px);
+    }
+
+    .cover {
+    background: linear-gradient(45deg,   #624A2E 0%,  #624A2E 100%);
+    }
+
+
+    .left-side h2 span:first-child {
+    font-weight: 400;
+    font-size: 13px;
+    padding-right: 20px;
+    }
+
+    .left-side h2 span:last-child{
+    font-family: acumin-pro, sans-serif;
+    }
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+/* @media (min-width: 1024px) {} */
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
+
+/*The desktop-first pre-defined media queries:*/
+/* 2xl */
+@media (max-width: 1536px) {}
+
+/* xl */
+@media (max-width: 1280px) {}
+
+/* lg */
+@media (max-width: 1024px) {}
+
+/* md */
+@media (max-width: 768px) {}
+
+/* sm */
+@media (max-width: 640px) {}
+
+/* xs */
+@media (max-width: 475px) {}
+
+/*Mobile container utility class:*/
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+/* xs */
+@media (min-width: 475px) {
+  .container {
+    max-width: 475px;
+  }
+}
+
+/* sm */
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+/*Desktop container utility class:*/
+.container {
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+/* 2xl */
+@media (max-width: 1536px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .container {
+    max-width: 475px;
+  }
+}
+
+/* xs */
+@media (max-width: 475px) {
+  .container {
+    width: 100%;
+  }
+}
+/* Define styles for .container */
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  max-width: 1536px; /* Default max-width for desktop */
+}
+
+/* Adjust max-width for different screen sizes */
+@media (max-width: 1536px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    max-width: 475px;
+  }
+}
+
+@media(max-width: 475px) {
+  .container {
+    width: 100%;
+  }
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+  <div class="container">
+    <div class="box">
+      <h1>Login</h1>
+      <form action="/login" method="POST" id="loginForm">
+        <label for="UserID">Name:</label>
+        <input type="text" id="nameInput" name="UserID" placeholder="Name" required required maxlength="11"><br>
+
+        <label for="PasswordHash">Password:</label>
+        <input type="password" name="PasswordHash" placeholder="Password" required><br>
+
+        <p>I Don't have an account</p>
+        <div class="signup_link">
+          <a href="signup.html">Sign Up</a>
+        </div>
+        <button type="submit" class="Signup">Register</button>
+      </form>
+    </div>
+
+    <div class="book" style="top: 60%;">
+      <div class="front">
+        <div class="cover">
+          <h1 id="eye-left" style="top: 40%; color:black; font-family: 'Papyrus', Fantasy;"></h1>
+          <h1 id="eye-right" style="color:black; top: 30%; right: 60%; font-family: 'Papyrus', Fantasy;">Diary of </h1>
+        </div>
+      </div>
+      <div class="left-side">
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
