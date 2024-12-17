@@ -11,8 +11,11 @@ Customizable: Modular design allows for seamless integration and customization o
 Cross-Browser Compatibility: Ensures consistency across major web browsers.
 Efficient Layout Utilities: Includes utility classes for responsive containers and precise positioning.
 Technologies Used
+
 HTML5: For creating the structure of the web pages.
+
 CSS3: Advanced styling, animations, and responsive design.
+
 Media Queries: To ensure adaptability to different screen sizes.
 
 ![Uploading diary 1.PNG…]()
