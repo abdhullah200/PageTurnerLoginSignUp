@@ -18,7 +18,7 @@ CSS3: Advanced styling, animations, and responsive design.
 
 Media Queries: To ensure adaptability to different screen sizes.
 
-![Uploading diary 1.PNG…]()
+![diary 1](https://github.com/user-attachments/assets/6e10c92f-b9ed-45f4-877e-8d6a37ac0d63)
 
-![Uploading diary 2.PNG…]()
+![diary 2](https://github.com/user-attachments/assets/091f9c34-09ba-4285-a9a5-406bc42214b3)
 
